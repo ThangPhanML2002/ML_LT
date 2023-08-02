@@ -1,10 +1,7 @@
 import pandas as pd
 import numpy as np
 from flask import Flask, request, render_template, jsonify
-from flask_ngrok import run_with_ngrok
-from pyngrok import ngrok
 import joblib
-import webbrowser
 
 app = Flask(__name__)
 
